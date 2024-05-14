@@ -1,3 +1,9 @@
+import promptSync from 'prompt-sync';
+const prompt = promptSync();
+
+let vitorias = parseInt(prompt("Quantidade de vitórias: "))
+let derrotas = parseInt(prompt("Quantidade de derrotas: "))
+
 function calculadoraPartidasRankeadas(vitorias, derrotas) {
     let saldoVitorias = vitorias - derrotas;
     let classificacao;
@@ -31,4 +37,4 @@ function calculadoraPartidasRankeadas(vitorias, derrotas) {
 
     console.log(`O Herói tem de saldo de ${saldoVitorias} está na classificação: ${classificacao}`);
 }
-calculadoraPartidasRankeadas(50, 15)
+calculadoraPartidasRankeadas(vitorias, derrotas)
