@@ -3,6 +3,7 @@ O objetivo deste projeto é criar a lógica de programaçao onde a classificaç�
 - vitórias - derrotas
 
 E para determinar a quantidade de vitórias e derrotas utilizei o pacote:
-- prompt-sync
+- <b>prompt-sync</b>
+
 que permite uma interação com o usuário pelo prompt de comando!
 
