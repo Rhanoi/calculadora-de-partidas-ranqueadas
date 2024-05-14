@@ -35,6 +35,6 @@ function calculadoraPartidasRankeadas(vitorias, derrotas) {
             classificacao = "Imortal";
     }
 
-    console.log(`O Herói tem de saldo de ${saldoVitorias} está na classificação: ${classificacao}`);
+    console.log(`O Herói tem de saldo de vitórias: ${saldoVitorias}  e está na classificação: ${classificacao}`);
 }
 calculadoraPartidasRankeadas(vitorias, derrotas)
